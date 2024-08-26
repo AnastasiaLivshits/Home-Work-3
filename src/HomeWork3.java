@@ -1,23 +1,24 @@
 public class HomeWork3 {
-    public static void main(String[] args) {
+   {
         int a = 4;
-        byte b = 22;
-        short s = 38;
-        float d = 3.74f;
+        byte b = 12;
+        short s = 24;
         long l = 641_123_345_564_789_123L;
-        double e = 1.71111111;
-        System.out.println( a );
-        System.out.println( a );
-        System.out.println( b);
-        System.out.println( s );
-        System.out.println( d );
-        System.out.println( l );
-        System.out.println( e );
-        System.out.println(  );
+        float f = 2.5f;
+        double d = 1.711111111222222;
+
+        System.out.println("Значение переменной а с типом int равно "+ a);
+        System.out.println("Значение переменной b с типом byte равно "+ b);
+        System.out.println("Значение переменной s с типом short равно "+ s);
+        System.out.println("Значение переменной l с типом long равно "+ l);
+        System.out.println("Значение переменной f с типом float равно "+ f);
+        System.out.println("Значение переменной d с типом double равно "+ d);
+System.out.println();
+
 
         double d2 = 27.12;
         long l1 = 987_678_965_549L;
-        float f = 2.786f;
+        float f1= 2.786f;
         int sh= 569;
         short ss= -159;
         short i =27897;
