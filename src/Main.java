@@ -1,13 +1,13 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Task1");
-        int a = 4;
+        int n = 4;
         byte b = 12;
         short s = 24;
         long l = 641123345564789123L;
         float f = 2.5F;
         double d = 1.711111111222222;
-        System.out.println("Значение переменной а с типом int равно " + a);
+        System.out.println("Значение переменной а с типом int равно " + n);
         System.out.println("Значение переменной b с типом byte равно " + b);
         System.out.println("Значение переменной s с типом short равно " + s);
         System.out.println("Значение переменной l с типом long равно " + l);
@@ -63,7 +63,7 @@ public class Main {
         int IceCream = 200;
         int Eggs = 280;
         int Weight = Banana + Milk + IceCream + Eggs;
-        float Kg = (float)Weight / 1000.0F;
+        float Kg = (float) Weight / 1000.0F;
         System.out.println("вес спортзавтрака в граммах равен " + Weight);
         System.out.println("вес спортзавтрака в килограммах равен " + Kg);
         System.out.println();
@@ -77,13 +77,13 @@ public class Main {
         int Denis = 83690;
         int Kristina = 76230;
         System.out.println();
-        double MashaIncrease = (double)Masha + (double)Masha * 0.1;
-        double DenisIncrease = (double)Denis + (double)Denis * 0.1;
-        double KristinaIncrease = (double)Kristina + (double)Kristina * 0.1;
+        double MashaIncrease = (double) Masha + (double) Masha * 0.1;
+        double DenisIncrease = (double) Denis + (double) Denis * 0.1;
+        double KristinaIncrease = (double) Kristina + (double) Kristina * 0.1;
         System.out.println();
-        double DifferanceMasha = MashaIncrease * 12.0 - (double)(Masha * 12);
-        double DifferanceDenis = DenisIncrease * 12.0 - (double)(Denis * 12);
-        double DifferanceKristina = KristinaIncrease * 12.0 - (double)(Kristina * 12);
+        double DifferanceMasha = MashaIncrease * 12.0 - (double) (Masha * 12);
+        double DifferanceDenis = DenisIncrease * 12.0 - (double) (Denis * 12);
+        double DifferanceKristina = KristinaIncrease * 12.0 - (double) (Kristina * 12);
         System.out.println("Маша теперь получает " + MashaIncrease + " рублей. Годовой доход вырос на " + DifferanceMasha + " рублей.");
         System.out.println("Денис теперь получает " + DenisIncrease + " рублей. Годовой доход вырос на " + DifferanceDenis + " рублей.");
         System.out.println("Денис теперь получает " + KristinaIncrease + " рублей. Годовой доход вырос на " + DifferanceKristina + " рублей. ");
